@@ -1,11 +1,3 @@
 # Tictactoe challange;
-Only use js-file ;
-Make Human/Computer Game.
-Make 'boxHuman' hoover when crusing over boxes.Use mouseout/mouseOver
-Make winning array.
-Make winning alerts show who winn,or if DRAW.
-Make pcMove,pick random free box.
-Make RESET fuction.
-Make code readeble.
-//I'm there...soon
+A 2 player game as a start for the challange.
 https://codeandpranks.github.io/Tictactoe/
