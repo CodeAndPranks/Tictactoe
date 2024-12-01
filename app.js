@@ -1,21 +1,5 @@
 
-// Wrap my code in a function
-(function() {
-//mousetable function to avid problems or name conflict futher down
-   
-const mousetable = Array.from(document.getElementsByClassName('box'));
-         //   MouseOver & mouseOut for all spot's
-   mousetable.forEach(box => {box.addEventListener('mouseover',myfunction1)});
-   function myfunction1 () {
-   this.classList.add('boxHuman')
-   }
-   mousetable.forEach(box => {box.addEventListener('mouseout',myfunction2)});
-   function myfunction2 () {
-   this.classList.remove('boxHuman')
-    console.log('mouseout','mouseinn')
-}
-
-    // Get a table to play on[array]
+   // Get a table to play on[array]
     const table = Array.from(document.querySelectorAll('.box'));
 
     // Text info for Player
@@ -46,7 +30,7 @@ const mousetable = Array.from(document.getElementsByClassName('box'));
         const boxArr = Array.from(document.getElementsByClassName('box'));
         const index = boxArr.indexOf(e.target);
 
-        // click add boxHuman
+        // click add 'o';
         if (currenP === 'o') {   
             table[index].classList.add('boxHuman');
             movesPlayed.push(index);
@@ -54,11 +38,12 @@ const mousetable = Array.from(document.getElementsByClassName('box'));
         } else {
             table[index].classList.add('boxComputer');
             movesPlayed.push(index);
+            console.log(index , "table= " +table.length )
         }
         
         if (checkWinner()) {
             setTimeout(() => {
-                alert(`Player ${currenP} wins! Restart?`);
+                alert(currenP + "_Player wins! Restart?");
                 restart();
             },100);
             return;
@@ -84,19 +69,6 @@ function checkWinner() {
     }
     return false;
 }
-
-
     function restart() {
-        table.forEach(box => {
-            box.classList.remove('boxComputer', 'boxHuman');
-        });
-        infoTxt.innerText = 'NEW GAME';
-        infoTxt.style.color = "green";
-        movesPlayed.length = 0;
-
-        table.forEach(box => {
-            box.addEventListener('click', myfunction, { once: true });
-        });
+       window.location.reload()
     }
-})();
-
