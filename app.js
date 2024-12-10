@@ -1,6 +1,5 @@
-
-   // Get a table to play on[array]
-    const table = Array.from(document.querySelectorAll('.box'));
+// Get a table to play on [array]
+const table = Array.from(document.querySelectorAll('.box'));
 
     // Text info for Player
     let infoTxt = document.querySelector('h1');
@@ -26,43 +25,41 @@
 
     // GAME START
     function myfunction(e) {
-        // Need index of clicked box
+        // Need index of clicked box.
         const boxArr = Array.from(document.getElementsByClassName('box'));
         const index = boxArr.indexOf(e.target);
-
-        // click add 'o';
+// click for add player 'o' svg-image.
         if (currenP === 'o') {   
             table[index].classList.add('boxHuman');
             movesPlayed.push(index);
-            
-        } else {
+       }else {
+// click to add player 'x' svg-image.      
             table[index].classList.add('boxComputer');
             movesPlayed.push(index);
-            console.log(index , "table= " +table.length )
+            console.log(index , "table= " + table.length );
         }
-        
         if (checkWinner()) {
             setTimeout(() => {
                 alert(currenP + "_Player wins! Restart?");
                 restart();
-            },100);
+            },100);//Need time to checkWinner(),before any alert.
             return;
         }
-
-        currenP = currenP == 'o' ? 'x' : 'o';
+//Switch Current Player.
+        currenP = currenP == 'o' ? 'x' : 'o';//switch Current Player.
 
         if (movesPlayed.length === 9) {
             setTimeout(() => {
                 alert('Draw! Restart?');
                 restart();
-            }, 100); // Using setTimeout so 'boxComputer' got time to add  to table.Otherwise alert shows before 'boxComputer' got added to the table.
-            return;
+            }, 100); // Timeout so function run properly.Same as some function's above)
         }
     }
-function checkWinner() {
+function checkWinner() {   //'map' of box index,and they're classList.value....
     for (let combo of winCombos) {
         const boxes = combo.map(index => table[index]);
         const classes = boxes.map(box => box.classList.value);
+       //...and if every box in a winn-row(e.g [0],[1],[2]),then  return the winn.
         if (classes.every(cls => cls === 'box boxHuman') || classes.every(cls => cls === 'box boxComputer')) {
             return true;
         }
