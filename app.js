@@ -67,5 +67,5 @@ function checkWinner() {   //'map' of box index,and they're classList.value....
     return false;
 }
     function restart() {
-       window.location.reload()
+       window.location.reload();//Feels safer then manually remove classList and moves etc.
     }
