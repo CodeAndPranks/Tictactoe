@@ -1,8 +1,9 @@
 <a id="up"></a>
-## A TTT for All.Zoom fit screen
-## Cover all from Single to AI(miniMax)
+## Tic Tac Toe for any choice✅
+## Zoom out to fit any screen✅
+## Cover any TTT from single to AI (miniMax algorithm)✅
 <h4 align="center">
-  OS compatibility :
+  OS compatibility▶️tested so far✅
   <br><br>
   <img src="https://img.shields.io/badge/Windows-05122A?style=for-the-badge&logo=windows">
   <img src="https://img.shields.io/badge/Linux-05122A?style=for-the-badge&logo=linux">
@@ -10,14 +11,14 @@
   <img src="https://img.shields.io/badge/macOS-05122A?style=for-the-badge&logo=macos">
 </h4>
 
-## 1.Play Single,brainstom,or VS a friend
-My first step in a ttt-vs-pc challenge
+## 1.Play Single, against a friend,or just brainstom
+(First TODO in ttt-vs-pc challenge)
 https://codeandpranks.github.io/Tictactoe
 
-## 2.Play against a PC/phone (dummy)
+## 2.Play against PC or phones random moves.(dummy) 
 https://codeandpranks.github.io/Tic-tac-toe-Human-Phone
 
-## 2.Code for PC (dummy)Challenge done
+ **2.Code:pc random (dummy)Challenge done**
 ```
 https://github.com/codeandpranks/Tic-tac-toe-Human-Phone
 ```
@@ -25,16 +26,17 @@ https://github.com/codeandpranks/Tic-tac-toe-Human-Phone
 ## 3.TTT vs AI,choose who to start,zoom to fit screen.
 https://codeandpranks.github.io/TicTacToe-VS-AI
 
-## 3.TTT vs AI, [miniMax algorithm] Code
+**3.TTT vs AI miniMax algorithm.Code**
 ```
 https://github.com/codeandpranks/TicTacToe-VS-AI
 ```
-![My tic tac toe](https://)
+<p algin="center"></p>
+
+![AI wait](https://github.com/CodeAndPranks/Tictactoe/blob/main/Screenshot_20250328-201024.png)
 
 ![JavaScript Badge](https://img.shields.io/badge/javaScript-05122A?style=for-the-badge&logo=JavaScript)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5)
 ![CSS Badge](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3)
 
-<p align="center">(<a href="https://github.com/CodeAndPranks/ ">To CodeAndPranks</a>)</p>
-<br><br>
 <p align="center">(<a href="#up">Up to top</a>)</p>
+<p align="center">(<a href="https://github.com/CodeAndPranks/ ">To CodeAndPranks</a>)</p>
