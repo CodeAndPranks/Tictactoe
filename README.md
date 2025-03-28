@@ -1,8 +1,4 @@
 <a id="up"></a>
-## Tic Tac Toe for any choice✅
-## Zoom out to fit any screen✅
-## Cover any TTT from single to AI (miniMax algorithm)✅
-<h4 align="center">
   OS compatibility▶️tested so far✅
   <br><br>
   <img src="https://img.shields.io/badge/Windows-05122A?style=for-the-badge&logo=windows">
@@ -11,6 +7,12 @@
   <img src="https://img.shields.io/badge/macOS-05122A?style=for-the-badge&logo=macos">
 </h4>
 
+## Tic Tac Toe for any choice✅
+## Zoom out to fit any screen✅
+**Cover any TTT from singel player to max AI using miniMax algorithm**
+  
+  
+ 
 ## 1.Play Single, against a friend,or just brainstom
 (First TODO in ttt-vs-pc challenge)
 https://codeandpranks.github.io/Tictactoe
