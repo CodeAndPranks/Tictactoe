@@ -1,4 +1,9 @@
 <a id="up"></a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=500&color=F7697A&background=333333&width=435&lines=Code+And+Pranks+Tic-Tac-Toe+for+any-+;+choice,+with+demo+links+to+play+on)](https://git.io/typing-svg)
+
+ # visitors counter
+![Visitor Count](https://profile-counter.glitch.me/CodeAndpranks/count.svg)
+
   OS compatibility▶️tested so far✅
   <br><br>
   <img src="https://img.shields.io/badge/Windows-05122A?style=for-the-badge&logo=windows">
@@ -7,8 +12,7 @@
   <img src="https://img.shields.io/badge/macOS-05122A?style=for-the-badge&logo=macos">
 </h4>
 
-## Tic Tac Toe for any choice✅
-## Zoom out to fit any screen✅
+## Tic Tac Toe for any choice. Zoom fit any screen✅
 **Cover any TTT from singel player to max AI using miniMax algorithm**
   
   
