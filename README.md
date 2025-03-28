@@ -29,7 +29,7 @@ https://codeandpranks.github.io/TicTacToe-VS-AI
 ```
 https://github.com/codeandpranks/TicTacToe-VS-AI
 ```
-![My tic tac toe](" ")
+![My tic tac toe]("https://github.com/CodeAndPranks/Tictactoe/blob/main/Screenshot_20250328-201144~2.png")
 
 ![JavaScript Badge](https://img.shields.io/badge/javaScript-05122A?style=for-the-badge&logo=JavaScript)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5)
