@@ -1,11 +1,12 @@
 <a id="up"></a>
 ## Cover any TTT from singel player to maximum AI ✅  
 **Zoom out will fit any sreens✅**
-# - AI need a few seconds on 1's move☝️to choose game
+- AI need a few seconds on 1's move if you dear let him start☝️
 - Start page to choose game:
-https://codeandpranks.github.io/TicTacToe
+- https://codeandpranks.github.io/Tictactoe
 
 **visitors counter**
+
 ![Visitor Count](https://profile-counter.glitch.me/CodeAndpranks/count.svg)
 
   OS compatibility▶️tested so far✅
@@ -14,7 +15,7 @@ https://codeandpranks.github.io/TicTacToe
   <img src="https://img.shields.io/badge/Linux-05122A?style=for-the-badge&logo=linux">
   <img src="https://img.shields.io/badge/Android-05122A?style=for-the-badge&logo=android">
 
-**<p align="center">Code language used</p>**
+**Code language used**
 
 ![JavaScript Badge](https://img.shields.io/badge/javaScript-05122A?style=for-the-badge&logo=JavaScript)
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5)
