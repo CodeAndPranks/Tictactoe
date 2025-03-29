@@ -1,7 +1,10 @@
 <a id="up"></a>
 ## Cover any TTT from singel player to maximum AI ✅  
 **Zoom out will fit any sreens✅**
-# - AI need a few seconds on 1's move☝️
+# - AI need a few seconds on 1's move☝️to choose game
+- Start page to choose game:
+https://codeandpranks.github.io/TicTacToe
+
 **visitors counter**
 ![Visitor Count](https://profile-counter.glitch.me/CodeAndpranks/count.svg)
 
