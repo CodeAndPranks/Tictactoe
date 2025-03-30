@@ -21,7 +21,7 @@
 ![HTML Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5)...
 ![CSS Badge](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3)
 
-<p align="center">AI...Waithing For You !</p>**
+<p align="center">AI  Waiting For You !</p>
 
 ![AI wait](ai.png)
 <br><br>
