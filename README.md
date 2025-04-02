@@ -2,7 +2,7 @@
 ## Cover any TTT from singel player to maximum AI ✅  
 **Zoom out will fit any sreens✅**
 - AI need a few seconds on 1's move if you dear let him start☝️
-- Start page to choose game:
+- Start page to choose any game:
 - https://codeandpranks.github.io/Tictactoe
 
 **visitors counter**
