@@ -45,10 +45,10 @@ function computerMove() {
 
     // Check if there are available moves before making a move
     if (availableMoves.length === 0) {
-        
-        alert("It'ssetTimeout(() => {
-    a draw! Restart?");
+        setTimeout(() => {
+        alert("It's a draw! \n Restart?");
         restart();
+         }, 200);
         return; // If it's a draw
     }
 
@@ -61,16 +61,16 @@ function computerMove() {
         setTimeout(() => {
         alert(currenP + " wins! Restart?");
         restart();
-         }, 100);
+         }, 300);
         return;
     }
 
     // Check for draw after computer's move
-    if (availableMoves.length === 1) {
+    if (availableMoves.length === 0) {
      setTimeout(() => {
         alert("It's a draw! Restart?");
         restart();
-          }, 100);   
+          }, 200);   
         return;
     }
 
