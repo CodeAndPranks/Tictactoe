@@ -45,7 +45,9 @@ function computerMove() {
 
     // Check if there are available moves before making a move
     if (availableMoves.length === 0) {
-        alert("It's a draw! Restart?");
+        
+        alert("It'ssetTimeout(() => {
+    a draw! Restart?");
         restart();
         return; // If it's a draw
     }
@@ -56,8 +58,10 @@ function computerMove() {
 
     // Check for winner after computer's move
     if (checkWinner()) {
+        setTimeout(() => {
         alert(currenP + " wins! Restart?");
         restart();
+         }, 100);
         return;
     }
 
@@ -130,6 +134,7 @@ function restart() {
 
 // Start the game with a computer move after 2 seconds
 window.onload = function() {
-    setTimeout(computerMove, 2000); // Delay the computer's first move by 
+    setTimeout(computerMove, 1500); // Delay...simulate computer is " thinking "(1'st')
+
 
 }
