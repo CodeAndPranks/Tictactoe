@@ -1,27 +1,3 @@
-    // Mouse function(s) to create hover effect for human.
-const mousetable = Array.from(document.getElementsByClassName('box'));
-
-// MouseOver & mouseOut for all spots
-mousetable.forEach(box => {
-    box.addEventListener('mouseover', myfunction1);
-    box.addEventListener('mouseout', myfunction2); 
-});
-
-// Set the background image on mouseover
-function myfunction1() {
-    if (!this.classList.contains('boxComputer')) { 
-        this.style.backgroundColor = '#FFA000'; //  boxHuman-color in CSS file
-        this.style.backgroundImage = "url('img/o.svg')"; // boxHuman-image in CSS file
-
-    }
-}
-// Function mouseout
-function myfunction2() { 
-    if (!this.classList.contains('boxComputer')) { 
-        this.style.backgroundColor = ''; 
-        this.style.backgroundImage = ''; 
-    }
-}
 // Get a table to play on [array]
 const table = Array.from(document.querySelectorAll('.box'));
 let currenP = 'x'; // AI starts
@@ -53,8 +29,6 @@ function checkWinner() {
     }
     return null; // No winner yet
 }
-
-
 
 // Minimax algorithm
 function minimax(depth, isMaximizing) {
@@ -124,7 +98,7 @@ function myfunction(e) {
 
 // Function for AI's move
 function makeAIMove() {
-  userInfo.innerText = "AI thinking...";
+  userInfo.innerText = "AI think..wait";
     setTimeout(() => {
       
         let bestScore = -Infinity;
@@ -146,7 +120,7 @@ function makeAIMove() {
             }
         }
 
-        // AI makes its move
+        // AI makes its move //(If any spot("bestMove") free)
         if (bestMove !== undefined) {
           userInfo.innerText = " ";
              
