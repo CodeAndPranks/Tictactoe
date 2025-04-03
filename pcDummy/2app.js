@@ -43,7 +43,9 @@ function computerMove() {
         .map((box, index) => (box.classList.contains('boxHuman') || box.classList.contains('boxComputer')) ? null : index)
         .filter(index => index !== null);
 
-    // Check if there are available moves before making a move
+    // Check if there are available moves before 'x' move
+      //Set Timeout to prevent alert before classList is added.
+     //Same for  ALL  winn & draw check  to add classList berfore winn/draw alert's.
     if (availableMoves.length === 0) {
         setTimeout(() => {
         alert("It's a draw! \n Restart?");
@@ -64,18 +66,20 @@ function computerMove() {
          }, 300);
         return;
     }
+ // Check for draw after computer's move
+    const remainingMoves = table
+        .map((box, index) => (box.classList.contains('boxHuman') || box.classList.contains('boxComputer')) ? null : index)
+        .filter(index => index !== null);
 
-    // Check for draw after computer's move
-    if (availableMoves.length === 0) {
-     setTimeout(() => {
-        alert("It's a draw! Restart?");
-        restart();
-          }, 200);   
+    if (remainingMoves.length === 0) {
+        setTimeout(() => {
+            alert("It's a draw! Restart?");
+            restart();
+        }, 200);
         return;
     }
-
-    // Switch to the next player
-    currenP = 'o'; // Now it's the human's turn
+    // Switch,Now it's the human's turn
+    currenP = 'o'; 
 }
 
 // Add Event listener to each box.
@@ -105,7 +109,7 @@ if (checkWinner()) {
      //Timeout to prevent alert to popoup before classList is added.
         alert(currenP + " wins! Restart?");
         restart();
-    }, 100);     
+    }, 200);     
     return;
 }
 
@@ -134,7 +138,7 @@ function restart() {
 
 // Start the game with a computer move after 2 seconds
 window.onload = function() {
-    setTimeout(computerMove, 1500); // Delay...simulate computer is " thinking "(1'st')
+    setTimeout(computerMove, 1500); // Delay...simulate computer is " thinking "
 
 
 }
